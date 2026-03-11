@@ -8,7 +8,6 @@
       name="description"
       content="菲律賓 Bicol 農業開發計畫：以 8 公頃示範園區，引進台灣優質芒果、鳳梨、釋迦等水果品種與種植技術，結合預期收益試算，打造高附加價值農業投資機會。"
     />
-    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -56,7 +55,6 @@
     </style>
   </head>
   <body class="bg-gradient-to-b from-green-50 via-emerald-50 to-amber-50 text-slate-800" data-lang="zh">
-    <!-- 導覽列 -->
     <header class="sticky top-0 z-30 border-b border-emerald-100/70 bg-white/80 backdrop-blur">
       <nav class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 lg:px-6">
         <div class="flex items-center gap-2">
@@ -112,7 +110,6 @@
             </button>
           </div>
         </div>
-        <!-- 行動裝置語言切換 -->
         <div class="flex items-center gap-1 rounded-full border border-emerald-200 bg-white/80 px-1.5 py-0.5 text-xs md:hidden">
           <button type="button" data-lang-switch="zh" class="lang-switch-mobile rounded-full px-3 py-0.5 font-medium text-slate-600">
             繁中
@@ -124,7 +121,6 @@
       </nav>
     </header>
 
-    <!-- Hero 區 -->
     <section
       class="relative overflow-hidden border-b border-emerald-100/70 bg-gradient-to-br from-primary-900 via-emerald-900 to-amber-900 text-white"
     >
@@ -331,7 +327,6 @@
       </div>
     </section>
 
-    <!-- 關於基地 -->
     <section id="about" class="mx-auto max-w-6xl px-4 py-12 lg:px-6 lg:py-16">
       <div class="grid gap-10 lg:grid-cols-[1.5fr,1.2fr]">
         <div class="space-y-4">
@@ -484,7 +479,6 @@
       </div>
     </section>
 
-    <!-- 作物與技術優勢 -->
     <section id="crops" class="bg-white/80 py-12 lg:py-16">
       <div class="mx-auto max-w-6xl px-4 lg:px-6">
         <div class="mb-8 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
@@ -511,7 +505,6 @@
         </div>
 
         <div class="grid gap-6 md:grid-cols-3">
-          <!-- 芒果 -->
           <article class="group flex flex-col overflow-hidden rounded-3xl border border-emerald-100 bg-gradient-to-b from-emerald-50 to-white p-5 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
             <div class="mb-3 flex items-center justify-between">
               <h3 class="text-lg font-semibold text-slate-900">
@@ -561,7 +554,6 @@
             </p>
           </article>
 
-          <!-- 鳳梨 -->
           <article class="group flex flex-col overflow-hidden rounded-3xl border border-emerald-100 bg-gradient-to-b from-amber-50 to-white p-5 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
             <div class="mb-3 flex items-center justify-between">
               <h3 class="text-lg font-semibold text-slate-900">
@@ -611,7 +603,6 @@
             </p>
           </article>
 
-          <!-- 釋迦 -->
           <article class="group flex flex-col overflow-hidden rounded-3xl border border-emerald-100 bg-gradient-to-b from-lime-50 to-white p-5 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
             <div class="mb-3 flex items-center justify-between">
               <h3 class="text-lg font-semibold text-slate-900">
@@ -656,7 +647,7 @@
               </span>
               <span class="lang-en">
                 With Taiwanese techniques, we can significantly improve fruit uniformity and sweetness to serve a
-                <span class="font-semibold">small-volume, high-price boutique market</span>.
+                small-volume, high-price boutique market.
               </span>
             </p>
           </article>
@@ -664,7 +655,6 @@
       </div>
     </section>
 
-    <!-- 預期收益計算機 -->
     <section id="calculator" class="mx-auto max-w-6xl px-4 py-12 lg:px-6 lg:py-16">
       <div class="mb-8 text-center">
         <p class="text-xs font-semibold uppercase tracking-[0.2em] text-primary-700">
@@ -682,7 +672,7 @@
             數字僅為示意，用於討論投資規劃方向。
           </span>
           <span class="lang-en">
-            Quickly estimate
+            Quick estimate
             <span class="font-semibold">annual yield and gross revenue</span>
             for different crops and planting areas. Figures are indicative only and meant for investment discussion.
           </span>
@@ -690,7 +680,6 @@
       </div>
 
       <div class="grid gap-8 lg:grid-cols-[1.5fr,1.2fr]">
-        <!-- 左側輸入 -->
         <div class="space-y-5 rounded-3xl bg-white/90 p-5 shadow-md shadow-emerald-100/70">
           <div class="flex items-center justify-between gap-3">
             <div>
@@ -722,7 +711,6 @@
           </div>
 
           <div class="space-y-4 text-sm">
-            <!-- 面積輸入 -->
             <div class="space-y-2">
               <div class="flex items-center justify-between text-xs text-slate-600">
                 <span class="font-medium text-slate-700">
@@ -808,7 +796,6 @@
             </div>
           </div>
 
-          <!-- 價格調整 -->
           <details class="group rounded-2xl border border-dashed border-slate-200 bg-slate-50/70 p-3 text-xs text-slate-700">
             <summary class="flex cursor-pointer items-center justify-between">
               <span class="font-medium text-slate-800">
@@ -880,7 +867,6 @@
           </button>
         </div>
 
-        <!-- 右側結果 -->
         <div class="space-y-4 rounded-3xl bg-emerald-900 p-5 text-emerald-50 shadow-xl shadow-emerald-900/40">
           <p class="text-xs font-semibold uppercase tracking-[0.2em] text-emerald-300">
             <span class="lang-zh">Result Overview</span>
@@ -902,7 +888,6 @@
             </span>
           </p>
 
-          <!-- 即時匯率顯示 -->
           <div class="rounded-2xl border border-emerald-700/70 bg-emerald-950/40 p-3 text-[11px] text-emerald-100 flex flex-col gap-1.5">
             <div class="flex items-center justify-between gap-2">
               <p class="font-semibold text-emerald-100">
@@ -1005,7 +990,6 @@
       </div>
     </section>
 
-    <!-- 開發時程 -->
     <section id="roadmap" class="bg-white/90 py-12 lg:py-16">
       <div class="mx-auto max-w-6xl px-4 lg:px-6">
         <div class="mb-8 text-center">
@@ -1075,7 +1059,6 @@
       </div>
     </section>
 
-    <!-- 聯絡與行動呼籲 -->
     <section id="contact" class="border-t border-emerald-100/80 bg-gradient-to-br from-emerald-900 via-emerald-950 to-slate-950 py-10 text-emerald-50">
       <div class="mx-auto flex max-w-6xl flex-col gap-8 px-4 lg:flex-row lg:items-center lg:justify-between lg:px-6">
         <div class="max-w-xl space-y-3">
@@ -1107,7 +1090,7 @@
           </ul>
         </div>
 
-        <form
+        <form action="https://formspree.io/f/mkoqodyb" method="POST"
           class="w-full max-w-md space-y-3 rounded-3xl bg-white/5 p-5 shadow-lg shadow-black/40 ring-1 ring-emerald-500/40"
         >
           <div>
@@ -1117,10 +1100,12 @@
             </label>
             <input
               id="name"
+              name="name"
               type="text"
               data-placeholder-zh="您的姓名"
               data-placeholder-en="Your name"
               placeholder="您的姓名"
+              required
               class="w-full rounded-2xl border border-emerald-500/40 bg-emerald-950/40 px-3 py-2 text-sm text-emerald-50 placeholder:text-emerald-400 focus:border-emerald-300 focus:outline-none focus:ring-1 focus:ring-emerald-300"
             />
           </div>
@@ -1131,10 +1116,12 @@
             </label>
             <input
               id="email"
+              name="email"
               type="email"
               data-placeholder-zh="example@email.com"
               data-placeholder-en="example@email.com"
               placeholder="example@email.com"
+              required
               class="w-full rounded-2xl border border-emerald-500/40 bg-emerald-950/40 px-3 py-2 text-sm text-emerald-50 placeholder:text-emerald-400 focus:border-emerald-300 focus:outline-none focus:ring-1 focus:ring-emerald-300"
             />
           </div>
@@ -1145,23 +1132,25 @@
             </label>
             <textarea
               id="message"
+              name="message"
               rows="3"
               data-placeholder-zh="例如：希望了解投資模式與回收期、對某一作物特別有興趣等"
               data-placeholder-en="e.g. Investment structure, payback period, interest in specific crops"
               placeholder="例如：希望了解投資模式與回收期、對某一作物特別有興趣等"
+              required
               class="w-full rounded-2xl border border-emerald-500/40 bg-emerald-950/40 px-3 py-2 text-sm text-emerald-50 placeholder:text-emerald-400 focus:border-emerald-300 focus:outline-none focus:ring-1 focus:ring-emerald-300"
             ></textarea>
           </div>
           <button
-            type="button"
+            type="submit"
             class="inline-flex w-full items-center justify-center rounded-2xl bg-gradient-to-r from-emerald-400 to-amber-300 px-4 py-2.5 text-sm font-semibold text-emerald-950 shadow-md hover:from-emerald-300 hover:to-amber-200"
           >
-            <span class="lang-zh">送出意願（前端示意按鈕）</span>
+            <span class="lang-zh">送出意願</span>
             <span class="lang-en">Submit interest (demo)</span>
           </button>
           <p class="text-[11px] text-emerald-200/70">
-            <span class="lang-zh">表單目前為示意介面，實際送出與資料保存方式可依需求串接 Email、Google Sheet 或後端系統。</span>
-            <span class="lang-en">This form is a front-end mockup; actual submission and data storage can be connected to email, Google Sheets or back-end systems as needed.</span>
+            <span class="lang-zh">訊息將會直接傳送到您的 cph125@hotmail.com。</span>
+            <span class="lang-en">Your message will be sent directly to cph125@hotmail.com.</span>
           </p>
         </form>
       </div>
@@ -1181,7 +1170,6 @@
       </footer>
     </section>
 
-    <!-- 收益計算腳本 & 語言切換 -->
     <script>
       const mangoArea = document.getElementById('mangoArea');
       const pineappleArea = document.getElementById('pineappleArea');
